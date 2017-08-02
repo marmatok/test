@@ -1,0 +1,49 @@
+<style>
+    #login{
+        margin-top: 250px;
+        text-align: center;
+        border: 1.5px solid gray;
+        height: 300px;
+        background: lightblue;
+        display: flex;
+        align-items: center;
+    }
+
+    #login div:first-child{
+        width: 100%;
+    }
+
+    #login div:first-child div{
+        position: relative;
+    }
+
+    i.glyphicon {
+        position: absolute;
+        padding: 10px;
+        pointer-events: none;
+        right: 0px;
+    }
+
+    .input-field {
+        font-size: 1.25em;
+        font-weight: bold;
+        /*letter-spacing: 0.3px;*/
+        margin: 20px 0;
+    }
+
+</style>
+<div id="login" class="col-sm-offset-4 col-sm-4">
+    <div>
+        <div id="username" class="form-group input-field">
+            <i class="glyphicon glyphicon-user"></i>
+            <input class="form-control" type="text" placeholder="Username"/>
+        </div>
+        <div id="password" class="form-group input-field">
+            <i class="glyphicon glyphicon-lock"></i>            
+            <input class="form-control" type="password" placeholder="Password"/>
+        </div>
+        <div class="form-group">
+            <input class="btn btn-success" type="button" value="Login"/>
+        </div>
+    </div>        
+</div>

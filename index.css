@@ -11,7 +11,7 @@ li{
 }
 
 li:hover{
-    background-color: salmon;
+    background-color: firebrick;
 }
 
 li:hover span{
